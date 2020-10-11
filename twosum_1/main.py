@@ -6,6 +6,8 @@
 #     return []
 #     # 暴力循环法
 
+
+
 # def twoSum(nums,target):
 #     temp = nums.copy()
 #     temp.sort()
@@ -27,6 +29,7 @@
 #     if p > k:
 #         return [k,p]
 #     else: return [p,k]  # 排序+双指针法
+
 
 def twoSum(nums,target):
     temp = dict()
